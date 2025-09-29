@@ -8,13 +8,13 @@ namespace NinerCSEquipmentCheckout
 {
     public class Item
     {
-        public string Id { get; set; }
-        public string Name { get; set; }
-        public string Category { get; set; }
-        public string Condition { get; set; }
+        public int Id { get; set; }
+        public string? Name { get; set; }
+        public string? Category { get; set; }
+        public string? Condition { get; set; }
         public ItemStatus Status { get; set; }
 
-        public Item(string id, string name, string category, string condition, ItemStatus status)
+        public Item(int id, string name, string category, string condition, ItemStatus status)
         {
             Id = id;
             Name = name;

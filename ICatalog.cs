@@ -9,10 +9,10 @@ namespace NinerCSEquipmentCheckout
     public interface ICatalog
     {
         // Returns a list of items that are currently available for checkout.
-        List<Item> ListAvailable();
+        void ListAvailable();
 
         // Returns a list of items that are currently unavailable for checkout.
-        List<Item> ListUnavailable();
+        void ListUnavailable();
 
         // Finds a specific item by its ID.
         Item FindById(string itemId);

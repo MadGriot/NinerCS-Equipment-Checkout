@@ -1,0 +1,15 @@
+C:\Users\Insan\source\repos\NinerCSEquipmentCheckout\NinerCSEquipmentCheckout\bin\Debug\net8.0\NinerCSEquipmentCheckout.exe
+C:\Users\Insan\source\repos\NinerCSEquipmentCheckout\NinerCSEquipmentCheckout\bin\Debug\net8.0\NinerCSEquipmentCheckout.deps.json
+C:\Users\Insan\source\repos\NinerCSEquipmentCheckout\NinerCSEquipmentCheckout\bin\Debug\net8.0\NinerCSEquipmentCheckout.runtimeconfig.json
+C:\Users\Insan\source\repos\NinerCSEquipmentCheckout\NinerCSEquipmentCheckout\bin\Debug\net8.0\NinerCSEquipmentCheckout.dll
+C:\Users\Insan\source\repos\NinerCSEquipmentCheckout\NinerCSEquipmentCheckout\bin\Debug\net8.0\NinerCSEquipmentCheckout.pdb
+C:\Users\Insan\source\repos\NinerCSEquipmentCheckout\NinerCSEquipmentCheckout\obj\Debug\net8.0\NinerCSEquipmentCheckout.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Insan\source\repos\NinerCSEquipmentCheckout\NinerCSEquipmentCheckout\obj\Debug\net8.0\NinerCSEquipmentCheckout.AssemblyInfoInputs.cache
+C:\Users\Insan\source\repos\NinerCSEquipmentCheckout\NinerCSEquipmentCheckout\obj\Debug\net8.0\NinerCSEquipmentCheckout.AssemblyInfo.cs
+C:\Users\Insan\source\repos\NinerCSEquipmentCheckout\NinerCSEquipmentCheckout\obj\Debug\net8.0\NinerCSEquipmentCheckout.csproj.CoreCompileInputs.cache
+C:\Users\Insan\source\repos\NinerCSEquipmentCheckout\NinerCSEquipmentCheckout\obj\Debug\net8.0\NinerCSEquipmentCheckout.sourcelink.json
+C:\Users\Insan\source\repos\NinerCSEquipmentCheckout\NinerCSEquipmentCheckout\obj\Debug\net8.0\NinerCSEquipmentCheckout.dll
+C:\Users\Insan\source\repos\NinerCSEquipmentCheckout\NinerCSEquipmentCheckout\obj\Debug\net8.0\refint\NinerCSEquipmentCheckout.dll
+C:\Users\Insan\source\repos\NinerCSEquipmentCheckout\NinerCSEquipmentCheckout\obj\Debug\net8.0\NinerCSEquipmentCheckout.pdb
+C:\Users\Insan\source\repos\NinerCSEquipmentCheckout\NinerCSEquipmentCheckout\obj\Debug\net8.0\NinerCSEquipmentCheckout.genruntimeconfig.cache
+C:\Users\Insan\source\repos\NinerCSEquipmentCheckout\NinerCSEquipmentCheckout\obj\Debug\net8.0\ref\NinerCSEquipmentCheckout.dll
