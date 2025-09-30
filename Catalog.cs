@@ -3,9 +3,9 @@ namespace NinerCSEquipmentCheckout
 {
     public class Catalog : ICatalog
     {
-        private readonly Repository repository;
+        private readonly IRepository repository;
 
-        public Catalog(Repository repository)
+        public Catalog(IRepository repository)
         {
             this.repository = repository;
         }
