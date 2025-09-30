@@ -25,16 +25,17 @@ namespace NinerCSEquipmentCheckout
 
         public void ListUnavailable()
         {
-            Console.WriteLine("Available Items:");
+            Console.WriteLine("Unavailable Items:");
             foreach (Item item in repository.AllItems().Where(x => x.Status == ItemStatus.CHECKED_OUT || x.Status == ItemStatus.LOST))
             {
                 Console.WriteLine($"- {item.Id} | {item.Name} | {item.Category}");
             }
         }
 
-        public List<Item> SearchBy(int criteria, string query)
+        public List<Item> SearchBy(string? query)
         {
-            throw new NotImplementedException();
+            return repository.AllItems()
+                .Where(x => x.Name != null && x.Name.Contains(query)).ToList();
         }
     }
 }

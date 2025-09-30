@@ -18,6 +18,6 @@ namespace NinerCSEquipmentCheckout
         Item FindById(string itemId);
 
         // OPTIONAL. Searches items by a keyword (e.g., name or category).
-        List<Item> SearchBy(int criteria, string query);
+        List<Item> SearchBy(string query);
     }
 }

@@ -4,6 +4,7 @@ namespace NinerCSEquipmentCheckout
     public class Repository : IRepository
     {
         List<Item> items = new List<Item>();
+        List<CheckoutRecord> records = new List<CheckoutRecord>();
         public List<Item> AllItems()
         {
             return items;
@@ -11,17 +12,17 @@ namespace NinerCSEquipmentCheckout
 
         public List<CheckoutRecord> AllRecords()
         {
-            throw new NotImplementedException();
+            return records;
         }
 
-        public CheckoutRecord GetActiveRecordFor(string itemId)
+        public CheckoutRecord GetActiveRecordFor(int itemId)
         {
-            throw new NotImplementedException();
+            return records.First(x => x.ItemId == itemId);
         }
 
-        public Item GetItem(string itemId)
+        public Item GetItem(int itemId)
         {
-            throw new NotImplementedException();
+            return items.First(x => x.Id == itemId);
         }
 
         public void SaveItem(Item item)
@@ -31,7 +32,7 @@ namespace NinerCSEquipmentCheckout
 
         public void SaveRecord(CheckoutRecord record)
         {
-            throw new NotImplementedException();
+            records.Add(record);
         }
     }
 }

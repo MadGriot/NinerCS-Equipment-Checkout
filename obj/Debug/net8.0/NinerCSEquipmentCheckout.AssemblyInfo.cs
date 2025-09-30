@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NinerCSEquipmentCheckout")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7347709728b3fa148e319de4586a6b76d92f8268")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e4be2aebb2081ed362198dcef35b015ed9885257")]
 [assembly: System.Reflection.AssemblyProductAttribute("NinerCSEquipmentCheckout")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NinerCSEquipmentCheckout")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -12,7 +12,7 @@ namespace NinerCSEquipmentCheckout
         void SaveItem(Item item);
 
         // Retrieve an item by its ID.
-        Item GetItem(string itemId);
+        Item GetItem(int itemId);
 
         // Get all items in the inventory.
         List<Item> AllItems();
@@ -21,7 +21,7 @@ namespace NinerCSEquipmentCheckout
         void SaveRecord(CheckoutRecord record);
 
         // Get the active loan record for a specific item.
-        CheckoutRecord GetActiveRecordFor(string itemId);
+        CheckoutRecord GetActiveRecordFor(int itemId);
 
         // Get all loan records (active and returned).
         List<CheckoutRecord> AllRecords();
