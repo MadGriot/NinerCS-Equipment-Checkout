@@ -42,6 +42,7 @@ namespace NinerCSEquipmentCheckout
                 switch (choiceNumber)
                 {
                     case 0:
+                        Console.WriteLine("Goodbye");
                         break;
                     case 1:
                         while (continued == "y")
@@ -84,6 +85,11 @@ namespace NinerCSEquipmentCheckout
                         if (!int.TryParse(Console.ReadLine(), out itemID))
                         {
                             Console.WriteLine("Invalid ID input.");
+                            continue;
+                        }
+                        if (!checkoutService.CanCheckout(itemID))
+                        {
+                            Console.WriteLine($"You cannot checkout {repository.GetItem(itemID).Name}");
                             continue;
                         }
                         Console.Write("Your name: ");
@@ -146,11 +152,32 @@ namespace NinerCSEquipmentCheckout
                         Console.WriteLine("Search");
                         Console.Write("Query: ");
                         string? query = Console.ReadLine();
-                            List<Item> itemsSearched = catalog.SearchBy(query);
-                        break;
-                            case 9:
-                                break;
+                        List<Item> itemsSearched = catalog.SearchBy(query);
+                        if (itemsSearched.Any())
+                        {
+                            Console.WriteLine("Results");
+                            foreach (Item item in itemsSearched)
+                            {
+                                Console.WriteLine($"{item.Id} | {item.Name} | {item.Condition}");
                             }
+                        }
+                        else
+                        {
+                            Console.WriteLine("None Found.");
+                        }
+                        break;
+                    case 9:
+                        Console.WriteLine("Mark item LOST");
+                        Console.Write("Insert Item ID: ");
+                        if (!int.TryParse(Console.ReadLine(), out itemID))
+                        {
+                            Console.WriteLine("Invalid ID input.");
+                            continue;
+                        }
+                        checkoutService.MarkLost(itemID);
+                        break;
+
+                    }
             }
 
         }

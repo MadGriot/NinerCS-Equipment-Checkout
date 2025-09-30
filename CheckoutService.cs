@@ -12,6 +12,12 @@ namespace NinerCSEquipmentCheckout
             this.catalog = catalog;
             this.repository = repository;
         }
+
+        public bool CanCheckout(int itemId)
+        {
+            return repository.GetItem(itemId).Status == ItemStatus.AVAILABLE;
+        }
+
         public Receipt Checkout(int itemId, Borrower borrower, DateTime dueDate)
         {
             CheckoutRecord checkoutRecord = new CheckoutRecord(itemId, borrower, DateTime.Now, dueDate);

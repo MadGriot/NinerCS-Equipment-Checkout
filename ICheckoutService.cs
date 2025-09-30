@@ -28,5 +28,7 @@ namespace NinerCSEquipmentCheckout
 
             // Finds loans that are overdue.
             List<CheckoutRecord> FindOverdue();
+
+            bool CanCheckout(int itemId);
     }
 }
